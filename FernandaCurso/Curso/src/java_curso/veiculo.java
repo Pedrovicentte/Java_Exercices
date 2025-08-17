@@ -1,6 +1,8 @@
-public class Carro {
+package java_curso;
+
+public class veiculo {
     String modelo;
-    public Carro(String modelo){
+    public veiculo(String modelo){
         this.modelo = modelo;
     }
 

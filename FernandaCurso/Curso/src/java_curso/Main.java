@@ -1,20 +1,32 @@
-import java.util.ArrayList;
+package java_curso;
 
 public class Main {
   public static void main(String[] args) {
-    Carro meuCarro =  new  Carro("Fusca");
-    Carro meuCarro1 =  new  Carro("Sandero");
-    Carro meuCarro2 =  new  Carro("BMW");
+    Carro meuCarro =  new Sandero();
+    Carro meuCarro2 = new Mob();
 
     meuCarro.acelerar();
-    meuCarro1.acelerar();
     meuCarro2.acelerar();
+    
 
   }
 }
+ /*
+    veiculo meuVeiculo1 =  new veiculo("Sandero");
+    veiculo meuVeiculo2 =  new veiculo("BMW");
+    meuVeiculo.acelerar();
+    meuVeiculo1.acelerar();
+    meuVeiculo2.acelerar();
+*/
 
 
 
+/*  Modificadores de Acesso
+  - public -> Acessivel de todo lugar.
+  - default -> Qundo não defino acesso
+  - private -> Somente dentro da classe que foi definida
+  - protected -> Acessivel para todos que está no mesmo pacote
+*/
 /*
       ARRAY
        -Quando se cria uma array não se pode modificar a quantidade de elementos.
